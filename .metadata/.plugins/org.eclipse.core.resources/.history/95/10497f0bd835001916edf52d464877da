@@ -13,7 +13,7 @@ public class GissaTal {
 		boolean running = true;
 
 		while (running) {
-			
+			System.out.println("Tjena MP");
 		}
 	}
 }

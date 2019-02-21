@@ -9,11 +9,12 @@ public class GissaTal {
 
 		int lowest = 0;
 		int highest = 10;
-		int correct = (int) (Math.random() * (highest - lowest) + 1) + lowest;
+		int correct = (int)(Math.random()*(highest-lowest) +1)+ lowest; 
 		boolean running = true;
-
+		
 		while (running) {
-			
+			System.out.println("Anton, dö");
+			}
 		}
 	}
 }
