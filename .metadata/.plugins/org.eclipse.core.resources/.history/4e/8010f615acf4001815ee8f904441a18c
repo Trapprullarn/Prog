@@ -1,0 +1,15 @@
+package v48;
+
+public class ReverseString {
+	
+	
+	public static String reverse(String str) {
+		
+		String result = "";
+		
+		for(int i = str.length(); i >= 0; i--) {
+			result.concat(str.substring(i, i+1));
+		}
+		
+	}
+}

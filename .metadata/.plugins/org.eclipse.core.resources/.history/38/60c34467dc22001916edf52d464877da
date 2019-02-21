@@ -1,0 +1,17 @@
+package w5;
+
+import java.util.Arrays;
+
+public class dice {
+
+	public static void main(String[] args) {
+		
+		int[] kast = {0,0,0,0,0,0};
+	
+		for(int i = 0; i < 1000; i++) {
+			int random = (int) (ath.random()*6);
+			kast[random]++;
+		}
+		System.out.println(Arrays.toString);
+	}
+}

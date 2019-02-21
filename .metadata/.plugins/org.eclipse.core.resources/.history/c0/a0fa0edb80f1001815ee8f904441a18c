@@ -1,0 +1,21 @@
+package v48;
+
+import java.util.Scanner;
+
+public class Metoder {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner input  = new Scanner(System.in);
+		String name;
+		
+		System.out.println("Hej. Vad heter du?");
+		name = input.nextLine();
+		
+		System.out.println("hej " + name + " välkommen hit!");
+		
+	}
+
+	//Skriv en metod som returnerar en hälsning till en person
+}
